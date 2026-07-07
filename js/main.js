@@ -124,3 +124,11 @@ if (heroImage) {
     }, 5000);
 
 }
+const menuToggle = document.getElementById("menu-toggle");
+const menu = document.getElementById("menu");
+
+if(menuToggle){
+    menuToggle.addEventListener("click", function(){
+        menu.classList.toggle("active");
+    });
+}
